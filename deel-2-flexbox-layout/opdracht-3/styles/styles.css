@@ -1,1 +1,44 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
+
+.col-2 > {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-3 {
+    display: flex;
+    /*justify-content: space-between;*/
+
+}
+
+.col-3-article {
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+}
+
+.col-3-aside {
+    flex-direction: column;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+
+.col-4 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
