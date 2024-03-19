@@ -1,1 +1,85 @@
-/*Schrijf hier jouw css*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    background-color: #F2F3D9;
+    min-height: 100vh;
+}
+
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #F2F3D9;
+    transition: .3s;
+}
+
+
+.upper-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 130px;
+    width: 100%;
+    padding: 32px 0 32px 0;
+    color: #151E3F;
+    flex-wrap: wrap;
+}
+
+.outer-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #030027;
+    flex-wrap: wrap;
+}
+
+.box {
+    border-radius: 5px;
+    max-width: 280px;
+    height: 350px;
+    background: #C16E70;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.header-wrapper {
+    color: #FFFFFF;
+    background-color: #151E3F;
+    padding: 10px 40px 10px 40px;
+    font-weight: 600;
+}
+
+
+.header-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+
