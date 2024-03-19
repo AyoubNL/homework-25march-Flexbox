@@ -1,48 +1,41 @@
 .opdracht-1 ul {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
 .opdracht-2 ul {
     display: flex;
-    flex-direction: row;
 }
 
 .opdracht-2 li {
-    flex-basis: 250px;
+    flex-basis: 0;
+    flex-grow: 1;
 }
 
-.opdracht-3 ul{
+.opdracht-3 ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
-    border: 5px dashed yellow;
 }
 
 .left {
     border: 5px dashed red;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    align-self: flex-start;
 }
 
 .center {
     border: 5px dashed green;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-self:center;
 }
 
 .right {
-    flex-wrap: wrap;
-    border: 5px dashed pink;
-    justify-content: flex-end;
+    align-self: flex-end;
+    border: 5px dashed blue;
 }
 
 .opdracht-4 ul {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 12px;
     gap: 10px 11px;
 }
 
