@@ -10,6 +10,7 @@ body {
     flex-basis: 15vh;
     flex-grow: 0;
     flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
 .opdracht-1-main-row {
@@ -21,29 +22,28 @@ body {
     flex-shrink: 0;
 }
 
-.opdracht-1-main1 {
+.opdracht-1-article {
     flex-direction: column;
     flex-basis: 900px;
     flex-grow: 2;
-    flex-shrink: 0;
+    flex-shrink: 2;
 }
 
-.opdracht-1-main2 {
+.opdracht-1-nav2 {
     flex-direction: column;
     flex-basis: 250px;
-    flex-grow: 0;
-    flex-shrink: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
     order: 3;
 }
 
-.opdracht-1-main3 {
+.opdracht-1-aside3 {
     flex-direction: column;
     flex-basis: 250px;
-    flex-grow: 0;
-    flex-shrink: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
     order: 2;
 }
-
 
 .opdracht-1-footer {
     display: flex;

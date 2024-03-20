@@ -24,7 +24,6 @@ a:hover {
     transition: .3s;
 }
 
-
 .upper-text {
     display: flex;
     flex-direction: column;
@@ -67,14 +66,12 @@ a:hover {
     font-weight: 600;
 }
 
-
 .header-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-
 
 .nav {
     display: flex;

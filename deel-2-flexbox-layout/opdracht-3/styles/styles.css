@@ -11,14 +11,15 @@ body {
 
 }
 
-.col-2 > {
+.col-2 header {
     display: flex;
     flex-direction: row;
 }
 
-.col-3 {
+.col-3-main {
     display: flex;
-    /*justify-content: space-between;*/
+    flex-grow: 0;
+    flex-shrink: 0;
 
 }
 
@@ -36,7 +37,7 @@ body {
 }
 
 
-.col-4 {
+.col-4-footer {
     display: flex;
     flex-direction: row;
     flex-grow: 0;

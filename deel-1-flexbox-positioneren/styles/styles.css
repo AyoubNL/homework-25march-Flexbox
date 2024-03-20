@@ -12,7 +12,7 @@
     flex-grow: 1;
 }
 
-.opdracht-3 ul {
+.opdracht-3 ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -42,9 +42,7 @@
 .opdracht-5 ul {
     display: flex;
     flex-direction: column;
-    /*flex-wrap: wrap;*/
     flex-basis: max-content;
-    /*border: 5px dashed yellow;*/
 }
 
 .box5 {
@@ -54,21 +52,19 @@
 }
 
 .part-one {
-    display: flex;
+
     flex-direction: column;
     align-content: flex-start;
     row-gap: 25px;
 }
 
 .part-two {
-    display: flex;
     flex-direction: column;
     align-content: center;
     row-gap: 25px;
 }
 
 .part-three {
-    display: flex;
     flex-direction: column;
     align-content: flex-end;
     row-gap: 25px;

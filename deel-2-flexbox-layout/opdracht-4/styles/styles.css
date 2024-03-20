@@ -24,15 +24,8 @@ body {
     flex-direction: column;
 }
 
-.inner-col header {
-    flex-shrink: 0;
-    flex-grow: 0;
-
-}
-
 .col-3-aside {
     flex-direction: column;
     flex-shrink: 0;
     flex-grow: 0;
-
 }

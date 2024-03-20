@@ -22,7 +22,7 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    flex-basis: 15vh;
+    flex-basis: 20px;
     flex-grow: 0;
     flex-shrink: 0;
 }
@@ -31,7 +31,6 @@ body {
     flex-basis: 550px;
     flex-grow: 2;
     flex-shrink: 2;
-
 }
 
 .footer {
