@@ -44,11 +44,14 @@ a:hover {
 }
 
 .box {
+    display: flex;
+    flex-direction: column-reverse;
     border-radius: 5px;
     max-width: 280px;
     height: 350px;
     background: #C16E70;
     text-align: center;
+    padding: 15px;
 }
 
 .box:hover {

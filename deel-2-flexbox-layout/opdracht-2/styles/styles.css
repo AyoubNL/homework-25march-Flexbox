@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: row;
-    min-height: 100vh;
+    border: 2px dashed red;
 }
 
 .col-1 {
@@ -14,7 +14,7 @@ body {
 .col-2 > {
     display: flex;
     flex-direction: row;
-    flex-basis: auto;
+    /*flex-basis: auto;*/
     flex-grow: 2;
     flex-shrink: 2;
 }
@@ -22,13 +22,13 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    flex-basis: 20px;
+    /*flex-basis: 220px;*/
     flex-grow: 0;
     flex-shrink: 0;
 }
 
 .main {
-    flex-basis: 550px;
+    /*flex-basis: 950px;*/
     flex-grow: 2;
     flex-shrink: 2;
 }
